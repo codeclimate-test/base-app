@@ -1,7 +1,5 @@
 require 'rubygems'
 require 'spork'
-require "codeclimate-test-reporter"
-CodeClimate::TestReporter.start
 
 Spork.prefork do
 
