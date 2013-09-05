@@ -50,6 +50,8 @@ GEM
     childprocess (0.3.8)
       ffi (~> 1.0, >= 1.0.11)
     chronic (0.8.0)
+    codeclimate-test-reporter (0.0.5)
+      simplecov (>= 0.7.1, < 1.0.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -215,6 +217,10 @@ GEM
     shoulda-context (1.0.1)
     shoulda-matchers (1.4.1)
       activesupport (>= 3.0.0)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
     spork (1.0.0rc3)
     spork-rails (3.2.0)
       rails (>= 3.0.0, < 3.3.0)
@@ -255,6 +261,7 @@ DEPENDENCIES
   capybara
   carrierwave
   chronic
+  codeclimate-test-reporter
   coffee-rails
   cucumber-rails
   database_cleaner
