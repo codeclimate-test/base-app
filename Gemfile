@@ -24,14 +24,12 @@ group :test, :development do
   gem "rspec"
   gem "rspec-rails"
   gem "spork-rails"
-  gem "debugger"
   gem "awesome_print"
 end
 
 group :development do
   gem "chronic"
   gem "admin_view"
-  gem "debugger"
 end
 
 group :test do
