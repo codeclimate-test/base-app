@@ -47,4 +47,4 @@ group :production, :development do
   gem "thin"
 end
 
-gem "codeclimate-test-reporter", group: :test, require: nil
+gem 'simplecov', :require => false, :group => :test
