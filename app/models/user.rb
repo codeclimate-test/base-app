@@ -16,6 +16,7 @@ class User < ActiveRecord::Base
   end
 
   def make_admin
+    puts "random change"
     self.roles << Role.admin
   end
 
